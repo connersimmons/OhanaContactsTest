@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		133075041DC4F6F100490124 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133075031DC4F6F100490124 /* AppDelegate.swift */; };
+		133075061DC4F6F100490124 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133075051DC4F6F100490124 /* ViewController.swift */; };
+		133075091DC4F6F100490124 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 133075071DC4F6F100490124 /* Main.storyboard */; };
+		1330750B1DC4F6F100490124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1330750A1DC4F6F100490124 /* Assets.xcassets */; };
+		1330750E1DC4F6F100490124 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1330750C1DC4F6F100490124 /* LaunchScreen.storyboard */; };
+		133075191DC4F6F100490124 /* OhanaContactsTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133075181DC4F6F100490124 /* OhanaContactsTestTests.swift */; };
+		133075241DC4F6F100490124 /* OhanaContactsTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133075231DC4F6F100490124 /* OhanaContactsTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		133075151DC4F6F100490124 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 133074F81DC4F6F100490124 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 133074FF1DC4F6F100490124;
+			remoteInfo = OhanaContactsTest;
+		};
+		133075201DC4F6F100490124 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 133074F81DC4F6F100490124 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 133074FF1DC4F6F100490124;
+			remoteInfo = OhanaContactsTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		133075001DC4F6F100490124 /* OhanaContactsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OhanaContactsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		133075031DC4F6F100490124 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		133075051DC4F6F100490124 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		133075081DC4F6F100490124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1330750A1DC4F6F100490124 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1330750D1DC4F6F100490124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1330750F1DC4F6F100490124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		133075141DC4F6F100490124 /* OhanaContactsTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OhanaContactsTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		133075181DC4F6F100490124 /* OhanaContactsTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OhanaContactsTestTests.swift; sourceTree = "<group>"; };
+		1330751A1DC4F6F100490124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1330751F1DC4F6F100490124 /* OhanaContactsTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OhanaContactsTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		133075231DC4F6F100490124 /* OhanaContactsTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OhanaContactsTestUITests.swift; sourceTree = "<group>"; };
+		133075251DC4F6F100490124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		133074FD1DC4F6F100490124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		133075111DC4F6F100490124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1330751C1DC4F6F100490124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		133074F71DC4F6F100490124 = {
+			isa = PBXGroup;
+			children = (
+				133075021DC4F6F100490124 /* OhanaContactsTest */,
+				133075171DC4F6F100490124 /* OhanaContactsTestTests */,
+				133075221DC4F6F100490124 /* OhanaContactsTestUITests */,
+				133075011DC4F6F100490124 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		133075011DC4F6F100490124 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				133075001DC4F6F100490124 /* OhanaContactsTest.app */,
+				133075141DC4F6F100490124 /* OhanaContactsTestTests.xctest */,
+				1330751F1DC4F6F100490124 /* OhanaContactsTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		133075021DC4F6F100490124 /* OhanaContactsTest */ = {
+			isa = PBXGroup;
+			children = (
+				133075031DC4F6F100490124 /* AppDelegate.swift */,
+				133075051DC4F6F100490124 /* ViewController.swift */,
+				133075071DC4F6F100490124 /* Main.storyboard */,
+				1330750A1DC4F6F100490124 /* Assets.xcassets */,
+				1330750C1DC4F6F100490124 /* LaunchScreen.storyboard */,
+				1330750F1DC4F6F100490124 /* Info.plist */,
+			);
+			path = OhanaContactsTest;
+			sourceTree = "<group>";
+		};
+		133075171DC4F6F100490124 /* OhanaContactsTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				133075181DC4F6F100490124 /* OhanaContactsTestTests.swift */,
+				1330751A1DC4F6F100490124 /* Info.plist */,
+			);
+			path = OhanaContactsTestTests;
+			sourceTree = "<group>";
+		};
+		133075221DC4F6F100490124 /* OhanaContactsTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				133075231DC4F6F100490124 /* OhanaContactsTestUITests.swift */,
+				133075251DC4F6F100490124 /* Info.plist */,
+			);
+			path = OhanaContactsTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		133074FF1DC4F6F100490124 /* OhanaContactsTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 133075281DC4F6F100490124 /* Build configuration list for PBXNativeTarget "OhanaContactsTest" */;
+			buildPhases = (
+				133074FC1DC4F6F100490124 /* Sources */,
+				133074FD1DC4F6F100490124 /* Frameworks */,
+				133074FE1DC4F6F100490124 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OhanaContactsTest;
+			productName = OhanaContactsTest;
+			productReference = 133075001DC4F6F100490124 /* OhanaContactsTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		133075131DC4F6F100490124 /* OhanaContactsTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1330752B1DC4F6F100490124 /* Build configuration list for PBXNativeTarget "OhanaContactsTestTests" */;
+			buildPhases = (
+				133075101DC4F6F100490124 /* Sources */,
+				133075111DC4F6F100490124 /* Frameworks */,
+				133075121DC4F6F100490124 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				133075161DC4F6F100490124 /* PBXTargetDependency */,
+			);
+			name = OhanaContactsTestTests;
+			productName = OhanaContactsTestTests;
+			productReference = 133075141DC4F6F100490124 /* OhanaContactsTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1330751E1DC4F6F100490124 /* OhanaContactsTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1330752E1DC4F6F100490124 /* Build configuration list for PBXNativeTarget "OhanaContactsTestUITests" */;
+			buildPhases = (
+				1330751B1DC4F6F100490124 /* Sources */,
+				1330751C1DC4F6F100490124 /* Frameworks */,
+				1330751D1DC4F6F100490124 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				133075211DC4F6F100490124 /* PBXTargetDependency */,
+			);
+			name = OhanaContactsTestUITests;
+			productName = OhanaContactsTestUITests;
+			productReference = 1330751F1DC4F6F100490124 /* OhanaContactsTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		133074F81DC4F6F100490124 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "The Blue Book Network";
+				TargetAttributes = {
+					133074FF1DC4F6F100490124 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = S2VM32T375;
+						ProvisioningStyle = Automatic;
+					};
+					133075131DC4F6F100490124 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = S2VM32T375;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 133074FF1DC4F6F100490124;
+					};
+					1330751E1DC4F6F100490124 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = S2VM32T375;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 133074FF1DC4F6F100490124;
+					};
+				};
+			};
+			buildConfigurationList = 133074FB1DC4F6F100490124 /* Build configuration list for PBXProject "OhanaContactsTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 133074F71DC4F6F100490124;
+			productRefGroup = 133075011DC4F6F100490124 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				133074FF1DC4F6F100490124 /* OhanaContactsTest */,
+				133075131DC4F6F100490124 /* OhanaContactsTestTests */,
+				1330751E1DC4F6F100490124 /* OhanaContactsTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		133074FE1DC4F6F100490124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1330750E1DC4F6F100490124 /* LaunchScreen.storyboard in Resources */,
+				1330750B1DC4F6F100490124 /* Assets.xcassets in Resources */,
+				133075091DC4F6F100490124 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		133075121DC4F6F100490124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1330751D1DC4F6F100490124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		133074FC1DC4F6F100490124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				133075061DC4F6F100490124 /* ViewController.swift in Sources */,
+				133075041DC4F6F100490124 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		133075101DC4F6F100490124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				133075191DC4F6F100490124 /* OhanaContactsTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1330751B1DC4F6F100490124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				133075241DC4F6F100490124 /* OhanaContactsTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		133075161DC4F6F100490124 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 133074FF1DC4F6F100490124 /* OhanaContactsTest */;
+			targetProxy = 133075151DC4F6F100490124 /* PBXContainerItemProxy */;
+		};
+		133075211DC4F6F100490124 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 133074FF1DC4F6F100490124 /* OhanaContactsTest */;
+			targetProxy = 133075201DC4F6F100490124 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		133075071DC4F6F100490124 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				133075081DC4F6F100490124 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1330750C1DC4F6F100490124 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1330750D1DC4F6F100490124 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		133075261DC4F6F100490124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		133075271DC4F6F100490124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		133075291DC4F6F100490124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S2VM32T375;
+				INFOPLIST_FILE = OhanaContactsTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thebluebook.OhanaContactsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1330752A1DC4F6F100490124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S2VM32T375;
+				INFOPLIST_FILE = OhanaContactsTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thebluebook.OhanaContactsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1330752C1DC4F6F100490124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S2VM32T375;
+				INFOPLIST_FILE = OhanaContactsTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thebluebook.OhanaContactsTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OhanaContactsTest.app/OhanaContactsTest";
+			};
+			name = Debug;
+		};
+		1330752D1DC4F6F100490124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S2VM32T375;
+				INFOPLIST_FILE = OhanaContactsTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thebluebook.OhanaContactsTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OhanaContactsTest.app/OhanaContactsTest";
+			};
+			name = Release;
+		};
+		1330752F1DC4F6F100490124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = S2VM32T375;
+				INFOPLIST_FILE = OhanaContactsTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thebluebook.OhanaContactsTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = OhanaContactsTest;
+			};
+			name = Debug;
+		};
+		133075301DC4F6F100490124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = S2VM32T375;
+				INFOPLIST_FILE = OhanaContactsTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thebluebook.OhanaContactsTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = OhanaContactsTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		133074FB1DC4F6F100490124 /* Build configuration list for PBXProject "OhanaContactsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				133075261DC4F6F100490124 /* Debug */,
+				133075271DC4F6F100490124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		133075281DC4F6F100490124 /* Build configuration list for PBXNativeTarget "OhanaContactsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				133075291DC4F6F100490124 /* Debug */,
+				1330752A1DC4F6F100490124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1330752B1DC4F6F100490124 /* Build configuration list for PBXNativeTarget "OhanaContactsTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1330752C1DC4F6F100490124 /* Debug */,
+				1330752D1DC4F6F100490124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1330752E1DC4F6F100490124 /* Build configuration list for PBXNativeTarget "OhanaContactsTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1330752F1DC4F6F100490124 /* Debug */,
+				133075301DC4F6F100490124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 133074F81DC4F6F100490124 /* Project object */;
+}
