@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03C02E9C34C422921014BCC8 /* Pods_OhanaContactsTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388426C283E780751DE8D1E7 /* Pods_OhanaContactsTest.framework */; };
 		133075041DC4F6F100490124 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133075031DC4F6F100490124 /* AppDelegate.swift */; };
-		133075061DC4F6F100490124 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133075051DC4F6F100490124 /* ViewController.swift */; };
 		133075091DC4F6F100490124 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 133075071DC4F6F100490124 /* Main.storyboard */; };
 		1330750B1DC4F6F100490124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1330750A1DC4F6F100490124 /* Assets.xcassets */; };
 		1330750E1DC4F6F100490124 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1330750C1DC4F6F100490124 /* LaunchScreen.storyboard */; };
 		133075191DC4F6F100490124 /* OhanaContactsTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133075181DC4F6F100490124 /* OhanaContactsTestTests.swift */; };
 		133075241DC4F6F100490124 /* OhanaContactsTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133075231DC4F6F100490124 /* OhanaContactsTestUITests.swift */; };
+		133075321DC4F87000490124 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133075311DC4F87000490124 /* TableViewController.swift */; };
+		81A204F27EA857E48895245E /* Pods_OhanaContactsTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98D31B1B6AE836431C64223C /* Pods_OhanaContactsTestTests.framework */; };
+		A55464F522142475CAD64FE0 /* Pods_OhanaContactsTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250ECFE19311E0F19ADC8823 /* Pods_OhanaContactsTestUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		133075001DC4F6F100490124 /* OhanaContactsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OhanaContactsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		133075031DC4F6F100490124 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		133075051DC4F6F100490124 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		133075081DC4F6F100490124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1330750A1DC4F6F100490124 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1330750D1DC4F6F100490124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,16 @@
 		1330751F1DC4F6F100490124 /* OhanaContactsTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OhanaContactsTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		133075231DC4F6F100490124 /* OhanaContactsTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OhanaContactsTestUITests.swift; sourceTree = "<group>"; };
 		133075251DC4F6F100490124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		133075311DC4F87000490124 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		1B052D29E8A9FB4AF6D6F121 /* Pods-OhanaContactsTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OhanaContactsTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-OhanaContactsTest/Pods-OhanaContactsTest.release.xcconfig"; sourceTree = "<group>"; };
+		1EA8F7773DC432AA2CA79D6D /* Pods-OhanaContactsTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OhanaContactsTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OhanaContactsTestTests/Pods-OhanaContactsTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		250ECFE19311E0F19ADC8823 /* Pods_OhanaContactsTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OhanaContactsTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		388426C283E780751DE8D1E7 /* Pods_OhanaContactsTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OhanaContactsTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91CD8B4EDF0C5C3799194D03 /* Pods-OhanaContactsTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OhanaContactsTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OhanaContactsTestUITests/Pods-OhanaContactsTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		98D31B1B6AE836431C64223C /* Pods_OhanaContactsTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OhanaContactsTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D4865CBBF66EB56B6C4A655 /* Pods-OhanaContactsTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OhanaContactsTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OhanaContactsTestUITests/Pods-OhanaContactsTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ACA58E6953C3B1BA14717251 /* Pods-OhanaContactsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OhanaContactsTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OhanaContactsTest/Pods-OhanaContactsTest.debug.xcconfig"; sourceTree = "<group>"; };
+		EA20A738D7AB23D3A325ADCC /* Pods-OhanaContactsTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OhanaContactsTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OhanaContactsTestTests/Pods-OhanaContactsTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03C02E9C34C422921014BCC8 /* Pods_OhanaContactsTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81A204F27EA857E48895245E /* Pods_OhanaContactsTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A55464F522142475CAD64FE0 /* Pods_OhanaContactsTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				133075171DC4F6F100490124 /* OhanaContactsTestTests */,
 				133075221DC4F6F100490124 /* OhanaContactsTestUITests */,
 				133075011DC4F6F100490124 /* Products */,
+				E4021A624514A590D3BD7FE3 /* Pods */,
+				594FFBAADF8E8A7070435475 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +115,11 @@
 			isa = PBXGroup;
 			children = (
 				133075031DC4F6F100490124 /* AppDelegate.swift */,
-				133075051DC4F6F100490124 /* ViewController.swift */,
 				133075071DC4F6F100490124 /* Main.storyboard */,
 				1330750A1DC4F6F100490124 /* Assets.xcassets */,
 				1330750C1DC4F6F100490124 /* LaunchScreen.storyboard */,
 				1330750F1DC4F6F100490124 /* Info.plist */,
+				133075311DC4F87000490124 /* TableViewController.swift */,
 			);
 			path = OhanaContactsTest;
 			sourceTree = "<group>";
@@ -125,6 +142,29 @@
 			path = OhanaContactsTestUITests;
 			sourceTree = "<group>";
 		};
+		594FFBAADF8E8A7070435475 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				388426C283E780751DE8D1E7 /* Pods_OhanaContactsTest.framework */,
+				98D31B1B6AE836431C64223C /* Pods_OhanaContactsTestTests.framework */,
+				250ECFE19311E0F19ADC8823 /* Pods_OhanaContactsTestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4021A624514A590D3BD7FE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACA58E6953C3B1BA14717251 /* Pods-OhanaContactsTest.debug.xcconfig */,
+				1B052D29E8A9FB4AF6D6F121 /* Pods-OhanaContactsTest.release.xcconfig */,
+				EA20A738D7AB23D3A325ADCC /* Pods-OhanaContactsTestTests.debug.xcconfig */,
+				1EA8F7773DC432AA2CA79D6D /* Pods-OhanaContactsTestTests.release.xcconfig */,
+				91CD8B4EDF0C5C3799194D03 /* Pods-OhanaContactsTestUITests.debug.xcconfig */,
+				9D4865CBBF66EB56B6C4A655 /* Pods-OhanaContactsTestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 133075281DC4F6F100490124 /* Build configuration list for PBXNativeTarget "OhanaContactsTest" */;
 			buildPhases = (
+				9B2D4D619EAD333CDA5F4A2C /* [CP] Check Pods Manifest.lock */,
 				133074FC1DC4F6F100490124 /* Sources */,
 				133074FD1DC4F6F100490124 /* Frameworks */,
 				133074FE1DC4F6F100490124 /* Resources */,
+				A7705B4D6E15CF32140E75C9 /* [CP] Embed Pods Frameworks */,
+				A0EC893ACBAA1393C1ABC5AE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1330752B1DC4F6F100490124 /* Build configuration list for PBXNativeTarget "OhanaContactsTestTests" */;
 			buildPhases = (
+				355A1B811EE45BA886583D0D /* [CP] Check Pods Manifest.lock */,
 				133075101DC4F6F100490124 /* Sources */,
 				133075111DC4F6F100490124 /* Frameworks */,
 				133075121DC4F6F100490124 /* Resources */,
+				36EAB22C384B5BA5FF52166F /* [CP] Embed Pods Frameworks */,
+				AD79BC08891D9CEF764F02F4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1330752E1DC4F6F100490124 /* Build configuration list for PBXNativeTarget "OhanaContactsTestUITests" */;
 			buildPhases = (
+				CD957A700C2E4EC0F4BD46C7 /* [CP] Check Pods Manifest.lock */,
 				1330751B1DC4F6F100490124 /* Sources */,
 				1330751C1DC4F6F100490124 /* Frameworks */,
 				1330751D1DC4F6F100490124 /* Resources */,
+				46B66DA492801C3616F142AC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +241,7 @@
 				TargetAttributes = {
 					133074FF1DC4F6F100490124 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = S2VM32T375;
+						DevelopmentTeam = 5BRVCLR48Q;
 						ProvisioningStyle = Automatic;
 					};
 					133075131DC4F6F100490124 = {
@@ -257,12 +305,135 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		355A1B811EE45BA886583D0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		36EAB22C384B5BA5FF52166F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OhanaContactsTestTests/Pods-OhanaContactsTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46B66DA492801C3616F142AC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OhanaContactsTestUITests/Pods-OhanaContactsTestUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B2D4D619EAD333CDA5F4A2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A0EC893ACBAA1393C1ABC5AE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OhanaContactsTest/Pods-OhanaContactsTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7705B4D6E15CF32140E75C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OhanaContactsTest/Pods-OhanaContactsTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD79BC08891D9CEF764F02F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OhanaContactsTestTests/Pods-OhanaContactsTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD957A700C2E4EC0F4BD46C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		133074FC1DC4F6F100490124 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				133075061DC4F6F100490124 /* ViewController.swift in Sources */,
+				133075321DC4F87000490124 /* TableViewController.swift in Sources */,
 				133075041DC4F6F100490124 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,10 +584,12 @@
 		};
 		133075291DC4F6F100490124 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACA58E6953C3B1BA14717251 /* Pods-OhanaContactsTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = S2VM32T375;
+				DEVELOPMENT_TEAM = 5BRVCLR48Q;
 				INFOPLIST_FILE = OhanaContactsTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thebluebook.OhanaContactsTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,10 +599,12 @@
 		};
 		1330752A1DC4F6F100490124 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B052D29E8A9FB4AF6D6F121 /* Pods-OhanaContactsTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = S2VM32T375;
+				DEVELOPMENT_TEAM = 5BRVCLR48Q;
 				INFOPLIST_FILE = OhanaContactsTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thebluebook.OhanaContactsTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +614,7 @@
 		};
 		1330752C1DC4F6F100490124 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA20A738D7AB23D3A325ADCC /* Pods-OhanaContactsTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +630,7 @@
 		};
 		1330752D1DC4F6F100490124 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EA8F7773DC432AA2CA79D6D /* Pods-OhanaContactsTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +646,7 @@
 		};
 		1330752F1DC4F6F100490124 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91CD8B4EDF0C5C3799194D03 /* Pods-OhanaContactsTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = S2VM32T375;
@@ -483,6 +661,7 @@
 		};
 		133075301DC4F6F100490124 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D4865CBBF66EB56B6C4A655 /* Pods-OhanaContactsTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = S2VM32T375;
@@ -514,6 +693,7 @@
 				1330752A1DC4F6F100490124 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1330752B1DC4F6F100490124 /* Build configuration list for PBXNativeTarget "OhanaContactsTestTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +702,7 @@
 				1330752D1DC4F6F100490124 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1330752E1DC4F6F100490124 /* Build configuration list for PBXNativeTarget "OhanaContactsTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +711,7 @@
 				133075301DC4F6F100490124 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

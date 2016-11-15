@@ -1,0 +1,18 @@
+PODS:
+  - libPhoneNumber-iOS (0.8.17)
+  - Ohana (1.3.0):
+    - libPhoneNumber-iOS (~> 0.8)
+    - UberSignals (~> 2.0)
+  - UberSignals (2.5.0)
+
+DEPENDENCIES:
+  - Ohana (~> 1.3)
+
+SPEC CHECKSUMS:
+  libPhoneNumber-iOS: 9f083847f8cb9b81064cff2ed2c98cbf18d9f9f2
+  Ohana: 7c7dc7038ae37f159ebf61bbc0105b319b4b00cc
+  UberSignals: abd80d8aa926828e30b75d3bd79d6ed07e4ed08a
+
+PODFILE CHECKSUM: 693099e08dd9c5c14ce6e7a5595cdce29f654183
+
+COCOAPODS: 1.0.1

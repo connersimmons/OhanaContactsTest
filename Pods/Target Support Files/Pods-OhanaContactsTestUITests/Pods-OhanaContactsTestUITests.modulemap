@@ -1,0 +1,6 @@
+framework module Pods_OhanaContactsTestUITests {
+  umbrella header "Pods-OhanaContactsTestUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
